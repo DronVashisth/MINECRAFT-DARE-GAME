@@ -1,0 +1,61 @@
+body {
+    font-family: 'Minecraftia', sans-serif;
+    background-color: #87CEEB;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #FFFACD;
+    padding: 20px;
+    border: 5px solid #008000;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #228B22;
+    margin-bottom: 20px;
+}
+
+.instruction {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.dare-box {
+    background: #F0E68C;
+    padding: 20px;
+    border: 2px solid #6B8E23;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#dare-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2E8B57;
+}
+
+#dare-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #32CD32;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#dare-button:hover {
+    background-color: #228B22;
+}
